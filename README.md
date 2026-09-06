@@ -1,1 +1,1 @@
-# Electr-nica-an-loga
+# Electrónica análoga
