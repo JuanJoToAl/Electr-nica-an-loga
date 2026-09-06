@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar informe IEEE al abrir",
+      "type": "shell",
+      "command": "pdflatex -interaction=nonstopmode -synctex=1 main.tex",
+      "options": {
+        "cwd": "${workspaceFolder}/practica_0"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "panel": "shared"
+      }
+    }
+  ]
+}
