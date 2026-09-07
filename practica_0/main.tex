@@ -32,7 +32,7 @@ correo3@unal.edu.co}
 \maketitle
 
 \begin{abstract}
-El presente informe documenta el trabajo previo para la práctica de manejo de equipos de medición en el laboratorio de electrónica análoga. Se abordan los cálculos teóricos, simulaciones y conceptos fundamentales para el uso del generador de señales, osciloscopio y multímetro digital, preparándose para la medición de valores eficaces (RMS), valores medios (DC) y la determinación de impedancias.
+El presente informe documenta el trabajo previo para la práctica de manejo de equipos de medición en el laboratorio de electrónica análoga. Se abordan los cálculos teóricos, simulaciones con sus respectivas formas de onda ilustrativas y conceptos fundamentales para el uso del generador de señales, osciloscopio y multímetro digital.
 \end{abstract}
 
 \section{Introducción y Justificación}
@@ -78,16 +78,44 @@ Se realizó la simulación del circuito resistivo y de las señales propuestas. 
     \label{fig:circuito}
 \end{figure}
 
-El punto de operación (Operating Point) arrojado por el simulador concuerda con los cálculos teóricos, como se evidencia en la Figura \ref{fig:op_point}.
+El punto de operación (Operating Point) arrojado por el simulador se reporta en la Figura \ref{fig:op_point}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{analoga_grafica_sinoidal_2.png}
-    \caption{Punto de operación simulado mostrando los voltajes y corrientes.}
+    \caption{Punto de operación simulado mostrando los voltajes y corrientes del circuito resistivo.}
     \label{fig:op_point}
 \end{figure}
 
-Para las simulaciones de las señales en el tiempo y sus mediciones de RMS y DC, referirse al \textbf{Anexo A}, donde se compilan las gráficas que evidencian explícitamente los valores promedios y RMS calculados por el simulador.
+Para ilustrar de forma clara las formas de onda generadas y analizadas en el trabajo previo, las Figuras \ref{fig:sin_l}--\ref{fig:tri_l} muestran las 4 gráficas limpias obtenidas en la simulación:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{analoga_grafica_sinoidal_1.png}
+    \caption{Señal senoidal limpia simulada.}
+    \label{fig:sin_l}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{analoga_grafica_cuadrada_1.png}
+    \caption{Señal cuadrada limpia simulada.}
+    \label{fig:cua_1_l}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{analoga_grafica_cuadrada_2_1.png}
+    \caption{Señal cuadrada simétrica limpia simulada.}
+    \label{fig:cua_2_l}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{analoga_grafica_triangular_1.png}
+    \caption{Señal triangular limpia simulada.}
+    \label{fig:tri_l}
+\end{figure}
 
 \section{Respuestas a las Preguntas Sugeridas}
 
@@ -108,54 +136,24 @@ Para las simulaciones de las señales en el tiempo y sus mediciones de RMS y DC,
     La \textit{impedancia de salida} es la resistencia equivalente de Thevenin que presenta un equipo (como el generador) hacia la carga que se le conecta. La \textit{impedancia de entrada} es la resistencia equivalente que un equipo (como el osciloscopio) presenta a la fuente de señal. Conocerlas es vital para garantizar la máxima transferencia de potencia o evitar efectos de carga indeseados.
 \end{enumerate}
 
-
 \section{Montaje}
 \textit{[Espacio reservado para documentar el montaje físico en protoboard una vez se realice la práctica en el laboratorio.]}
 
-\vspace{3cm}
+\vspace{2cm}
 
 \section{Análisis de Resultados}
 \textit{[Espacio reservado para contrastar los datos medidos con los equipos físicos frente a los cálculos y simulaciones.]}
 
-\vspace{3cm}
+\vspace{2cm}
 
 \section{Conclusiones}
 \textit{[Espacio reservado para las conclusiones finales basadas en la práctica de laboratorio.]}
 
-\vspace{3cm}
+\vspace{2cm}
 
 \begin{thebibliography}{1}
 \bibitem{sedra2020}
 A. S. Sedra, K. C. Smith, T. C. Carusone, y V. Gaudet, \emph{Microelectronic Circuits}, 8va ed. New York, NY: Oxford University Press, 2020. ISBN 9780190853464. Copyright \copyright 2020 by Oxford University Press.
 \end{thebibliography}
-
-\onecolumn
-\appendices
-\section{Anexo: Mediciones de Valores Promedio y RMS}
-En este anexo se presentan las capturas de simulación donde se evidencia el cálculo directo de los valores Promedio (Average) y RMS realizados por el software, las cuales sirven de base comparativa para el análisis de resultados posterior a la práctica.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{analoga_grafica_triangular_2.png}
-    \caption{Señal triangular mostrando valor promedio de -3.9992V y RMS de 4.6179V.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{analoga_grafica_cuadrada_2.png}
-    \caption{Señal cuadrada mostrando valor promedio de 3.417V y RMS de 4.2133V.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{analoga_grafica_cuadrada_2_2.png}
-    \caption{Señal cuadrada (con diferentes parámetros) mostrando valor promedio de 3.6V y RMS de 5.1381V.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{analoga_grafica_sinoidal_3.png}
-    \caption{Señal senoidal mostrando valor promedio de 1V y RMS de 2.0309V.}
-\end{figure}
 
 \end{document}
