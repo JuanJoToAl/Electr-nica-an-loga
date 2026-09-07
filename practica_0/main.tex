@@ -5,12 +5,14 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{float}
 
 \title{Pre-informe Práctica 0: Manejo de Equipos de Medición en Electrónica Análoga}
 \author{
-    Estudiante 1\\ \textit{correo1@unal.edu.co} \and
+    \textit{jutobara@unal.edu.co} \and
+    Juan José Tobar Álvarez\\ \textit{correo1@unal.edu.co} \and
     Estudiante 2\\ \textit{correo2@unal.edu.co} \and
-    Estudiante 3\\ \textit{correo3@unal.edu.co}
+    Estudiante 3\\ 
 }
 
 \begin{document}
@@ -188,28 +190,28 @@ Boston University Advanced Teaching Labs, ``Input and output impedance.'' [Onlin
 
 Se incluyen a continuación las capturas del simulador donde se muestran los valores promedio (DC) y RMS obtenidos por integración numérica para cada una de las señales complejas del numeral 3.1.1(3) de la guía, utilizados para construir la Tabla \ref{tab:senales}.
 
-\begin{figure}[t]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{analoga_grafica_sinoidal_3.png}
     \caption{Señal senoidal (5$\text{V}_{pp}$, DC 1 V, 500 Hz): Average $=1\text{ V}$, RMS $=2.0309\text{ V}$.}
     \label{fig:anexo_sin}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{analoga_grafica_cuadrada_2.png}
     \caption{Onda cuadrada simétrica (5$\text{V}_{pp}$, DC 3 V, 120 Hz): Average $=3.0003\text{ V}$, RMS $=3.9054\text{ V}$.}
     \label{fig:anexo_cuad_sim}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{analoga_grafica_triangular_2.png}
     \caption{Onda triangular (8$\text{V}_{pp}$, DC $-4$ V, 300 Hz): Average $=-3.9992\text{ V}$, RMS $=4.6179\text{ V}$.}
     \label{fig:anexo_triang}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{analoga_grafica_cuadrada_2_2.png}
     \caption{Onda cuadrada asimétrica (8$\text{V}_{pp}$, offset 2 V, 70\% ciclo útil, 1 kHz): Average $=3.6\text{ V}$, RMS $=5.1381\text{ V}$.}
