@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.17)  8 SEP 2026 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.17)  9 SEP 2026 22:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -423,25 +423,25 @@ modes (line 20).
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.104     \item \textbf
+l.107     \item \textbf
                        {Triangular ($2\text{ V}_{pp}$):} al oscilar simétri...]
-Underfull \hbox (badness 1478) in paragraph at lines 109--110
+Underfull \hbox (badness 1478) in paragraph at lines 112--113
 \OT1/ptm/m/n/10 es $\OT1/cmr/m/n/10 2[]5[]$\OT1/ptm/m/n/10 , por lo que $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = 1[]$ \OT1/ptm/m/n/10 y $\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 =
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 120.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 123.
 (C:\Users\David\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <analoga_practica1_3.1.2.png, id=86, 551.661pt x 332.442pt>
 File: analoga_practica1_3.1.2.png Graphic file (type png)
 <use analoga_practica1_3.1.2.png>
-Package pdftex.def Info: analoga_practica1_3.1.2.png  used on input line 124.
+Package pdftex.def Info: analoga_practica1_3.1.2.png  used on input line 127.
 (pdftex.def)             Requested size: 232.19843pt x 139.92397pt.
 <analoga_grafica_sinoidal_2.png, id=88, 452.892pt x 124.66576pt>
 File: analoga_grafica_sinoidal_2.png Graphic file (type png)
 <use analoga_grafica_sinoidal_2.png>
-Package pdftex.def Info: analoga_grafica_sinoidal_2.png  used on input line 131.
+Package pdftex.def Info: analoga_grafica_sinoidal_2.png  used on input line 134.
 (pdftex.def)             Requested size: 232.19843pt x 63.91537pt.
 
 
@@ -454,57 +454,57 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
+l.172 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
+l.172 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
+l.172 
        <./analoga_practica1_3.1.2.png> <./analoga_grafica_sinoidal_2.png>]
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 191--192
+Underfull \hbox (badness 5817) in paragraph at lines 194--195
 []\OT1/ptm/m/n/8 J. Paul, ``The sig-ni-fi-can-ce of os-ci-llos-co-pes in ae-ros-pa-ce and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 \OT1/ptm/m/n/8 de-fen-se,'' \OT1/ptm/m/it/8 Mi-li-tary Ae-ros-pa-ce Elec-tro-nics\OT1/ptm/m/n/8 . [On-li-ne]. Avai-la-ble:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 []$\OT1/ptm/m/n/8 https : / / www . militaryaerospace . com / commercial-[]aerospace / article /
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 197--198
+Underfull \hbox (badness 3098) in paragraph at lines 200--201
 []\OT1/ptm/m/n/8 Tektronix, ``Ma-king Mi-cro-Volt Bio-me-di-cal Mea-su-re-ments,'' Tech-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 \OT1/ptm/m/n/8 [On-li-ne]. Avai-la-ble: []$https : / / www . keysight . com / us / en / lib / resources /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 \OT1/ptm/m/n/8 training-[]materials / tip-[]1-[]understand-[]true-[]rms-[]measurements-[]458364 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 \OT1/ptm/m/n/8 com / threads / digital-[]analog-[]multimeter-[]frecuency-[]limit-[]in-[]ac-[]reading .
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 212--213
+Underfull \hbox (badness 3138) in paragraph at lines 215--216
 []\OT1/ptm/m/n/8 Boston Uni-ver-sity Ad-van-ced Tea-ching Labs, ``In-put and out-put
  []
 
@@ -512,43 +512,43 @@ Underfull \hbox (badness 3138) in paragraph at lines 212--213
 <analoga_grafica_sinoidal_3.png, id=150, 1151.502pt x 413.74574pt>
 File: analoga_grafica_sinoidal_3.png Graphic file (type png)
 <use analoga_grafica_sinoidal_3.png>
-Package pdftex.def Info: analoga_grafica_sinoidal_3.png  used on input line 224.
+Package pdftex.def Info: analoga_grafica_sinoidal_3.png  used on input line 227.
 (pdftex.def)             Requested size: 232.19843pt x 83.4295pt.
 <analoga_grafica_cuadrada_2.png, id=151, 1151.502pt x 437.2335pt>
 File: analoga_grafica_cuadrada_2.png Graphic file (type png)
 <use analoga_grafica_cuadrada_2.png>
-Package pdftex.def Info: analoga_grafica_cuadrada_2.png  used on input line 231.
+Package pdftex.def Info: analoga_grafica_cuadrada_2.png  used on input line 234.
 (pdftex.def)             Requested size: 232.19843pt x 88.16568pt.
 <analoga_grafica_triangular_2.png, id=152, 1154.51324pt x 398.6895pt>
 File: analoga_grafica_triangular_2.png Graphic file (type png)
 <use analoga_grafica_triangular_2.png>
-Package pdftex.def Info: analoga_grafica_triangular_2.png  used on input line 238.
+Package pdftex.def Info: analoga_grafica_triangular_2.png  used on input line 241.
 (pdftex.def)             Requested size: 232.19843pt x 80.18057pt.
 <analoga_grafica_cuadrada_2_2.png, id=153, 1151.502pt x 415.5525pt>
 File: analoga_grafica_cuadrada_2_2.png Graphic file (type png)
 <use analoga_grafica_cuadrada_2_2.png>
-Package pdftex.def Info: analoga_grafica_cuadrada_2_2.png  used on input line 245.
+Package pdftex.def Info: analoga_grafica_cuadrada_2_2.png  used on input line 248.
 (pdftex.def)             Requested size: 232.19843pt x 83.79382pt.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 \end{document}
+l.253 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 \end{document}
+l.253 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 \end{document}
+l.253 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 \end{document}
+l.253 \end{document}
                     
 
  <./analoga_grafica_sinoidal_3.png> <./analoga_grafica_cuadrada_2.png> <./analoga_grafica_triangular_2.png> <./analoga_grafica_cuadrada_2_2.png>] (main.aux
